@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-32">
+    <script defer src='./index.js'></script>
+
+    <style>
+      body {
+        font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+        display: flex;
+        justify-content: center;
+        align-items: center
+      }
+
+      #grid {
+        display: grid;
+        grid-template-columns: repeat(10, 50px);
+        grid-gap: 5px;
+        grid-auto-rows: 50px;
+      }
+
+      .box {
+        background-color: cadetblue;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .open {
+        background-color: rgb(175, 231, 233);
+      }
+
+      #main {
+        text-align: center;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div id='main'>
+      <h2 id='hello'></h2>
+      <div id='grid'></div>
+    </div>
+
+  </body>
+
+</html>
